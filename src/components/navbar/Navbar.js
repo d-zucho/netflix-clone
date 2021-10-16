@@ -2,6 +2,7 @@
 // import netlogo from '../../assets/Netflix_Logo_RGB.webp'
 import mainLogo from '../../assets/netflix-logo-back-black.jpeg'
 import avatar from '../../assets/netflix-avatar.png'
+import './navbar.css'
 
 function Navbar() {
   return (
