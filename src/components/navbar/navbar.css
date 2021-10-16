@@ -1,4 +1,38 @@
-.nav__content {
+.nav {
+  position: fixed;
+  height: 40px;
+  top: 0;
+  width: 100%;
+  padding: 1.5em;
+  z-index: 1;
+
+  /* ? -- Animations -- */
+  /* transition-timing-function: ease-in; */
+  transition: all 0.3s ease-in;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav__contents {
   display: flex;
   justify-content: space-between;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 150px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.nav__avatar {
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  width: 30px;
 }
